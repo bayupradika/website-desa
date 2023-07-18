@@ -1,0 +1,62 @@
+
+html{
+  height: 2000px;
+}
+
+.navbar{
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  z-index: 9999;
+
+}
+
+.nav-item{
+  padding-left: 1rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.menu{
+  color: white;
+}
+.navbar-brand img{
+  width: 50px;
+}
+.carousel-item{
+  margin-top: 90px;
+  height: 600px;
+}
+footer{
+  background-color: black;
+  bottom: 0;
+  width: 100vw;
+  position: fixed;
+  z-index: 9999;
+}
+.footer2{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+.footer2 a{
+  text-decoration: none;
+  color: white;
+}
+
+@media (max-width:720px){
+  .navbar-nav{
+    width: 80vw;
+    text-align: center;
+  }
+
+  .carousel .slide{
+    width: 100vw;
+    height: auto;
+  }
+  .carousel-item img{
+    width: 100vw;
+    height: auto;
+  }
+}
